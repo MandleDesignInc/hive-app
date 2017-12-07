@@ -1,0 +1,50 @@
+app-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    height: 64px;
+}
+
+button {
+    position: fixed;
+    top: 12px;
+    left: 0;
+    color: white;
+    z-index: 30;
+}
+
+mat-sidenav-container {
+    padding-top: 64px;
+    min-height: 60vh;
+    background: url("http://bluemandle2.com/~hive/assets/images/primary-background.png");
+    background-size: cover;
+}
+
+mat-sidenav {
+    background: #adb7c0 !important;
+    position: fixed;
+    top: 64px;
+    left: 0;
+    width: 200px;
+}
+
+mat-nav-list {
+    display: flex;
+    flex-direction: column;
+}
+mat-nav-list a {
+    font-weight: 700;
+    color: #171c39;
+    padding: 16px 16px 0 16px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+mat-nav-list a:hover {color: #94552A;}
+
+
+
+
+
+.spacer {height: 30px; background: #94552a;}

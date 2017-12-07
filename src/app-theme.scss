@@ -1,0 +1,121 @@
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+$palette-primary: (
+        50 : #e3e4e7,
+        100 : #b9bbc4,
+        200 : #8b8e9c,
+        300 : #5d6074,
+        400 : #3a3e57,
+        500 : #171c39,
+        600 : #141933,
+        700 : #11142c,
+        800 : #0d1124,
+        900 : #070917,
+        A100 : #5869ff,
+        A200 : #253bff,
+        A400 : #0018f1,
+        A700 : #0016d8,
+        contrast: (
+                50 : #000000,
+                100 : #000000,
+                200 : #000000,
+                300 : #ffffff,
+                400 : #ffffff,
+                500 : #ffffff,
+                600 : #ffffff,
+                700 : #ffffff,
+                800 : #ffffff,
+                900 : #ffffff,
+                A100 : #ffffff,
+                A200 : #ffffff,
+                A400 : #ffffff,
+                A700 : #ffffff,
+        )
+);
+
+$palette-accent: (
+        50 : #f2ebe5,
+        100 : #dfccbf,
+        200 : #caaa95,
+        300 : #b4886a,
+        400 : #a46f4a,
+        500 : #94552a,
+        600 : #8c4e25,
+        700 : #81441f,
+        800 : #773b19,
+        900 : #652a0f,
+        A100 : #ffb69a,
+        A200 : #ff9167,
+        A400 : #ff6c34,
+        A700 : #ff5a1a,
+        contrast: (
+                50 : #000000,
+                100 : #000000,
+                200 : #000000,
+                300 : #000000,
+                400 : #ffffff,
+                500 : #ffffff,
+                600 : #ffffff,
+                700 : #ffffff,
+                800 : #ffffff,
+                900 : #ffffff,
+                A100 : #000000,
+                A200 : #000000,
+                A400 : #000000,
+                A700 : #000000,
+        )
+);
+
+$palette-warn: (
+        50 : #fee8e7,
+        100 : #fcc7c3,
+        200 : #faa19b,
+        300 : #f77b72,
+        400 : #f65f54,
+        500 : #f44336,
+        600 : #f33d30,
+        700 : #f13429,
+        800 : #ef2c22,
+        900 : #ec1e16,
+        A100 : #ffffff,
+        A200 : #ffe9e9,
+        A400 : #ffb8b6,
+        A700 : #ff9f9c,
+        contrast: (
+                50 : #000000,
+                100 : #000000,
+                200 : #000000,
+                300 : #000000,
+                400 : #000000,
+                500 : #ffffff,
+                600 : #ffffff,
+                700 : #ffffff,
+                800 : #ffffff,
+                900 : #ffffff,
+                A100 : #000000,
+                A200 : #000000,
+                A400 : #000000,
+                A700 : #000000,
+        )
+);
+
+$hive-primary: mat-palette($palette-primary, 500, 300, 900);
+$hive-accent: mat-palette($palette-accent);
+$hive-warn: mat-palette($palette-warn, A700);
+
+$hive-theme: mat-dark-theme($hive-primary, $hive-accent, $hive-warn);
+// $hive-theme: mat-light-theme($hive-primary, $hive-accent, $hive-warn);
+
+@include angular-material-theme($hive-theme);
+
+
+
+
+
+
+
+
+
+
