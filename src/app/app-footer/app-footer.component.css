@@ -1,0 +1,31 @@
+footer {
+    font-size: 0.9em;
+    background: #282627;
+    padding: 24px 0;
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 6px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+footer a:hover {  color: #94552A;  }
+
+
+footer ul {
+    list-style: none;
+}
+footer ul li {display: inline; border-left: solid 1px #fff;}
+footer ul li:first-child {border-left: none;}
+
+.hive-branding { padding-left: 4px; }
+
+
+@media (max-width: 673px) {
+    footer ul li {display: block; border-left: none;}
+}

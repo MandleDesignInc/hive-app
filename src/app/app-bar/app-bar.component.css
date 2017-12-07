@@ -1,0 +1,20 @@
+mat-toolbar {
+    height: 100%;
+    font-size: small;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+a {
+    padding: 0 12px;
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    z-index: 4;
+}
+a:hover {  color: #94552A;  }

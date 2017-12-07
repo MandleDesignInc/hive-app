@@ -1,0 +1,33 @@
+mat-slide-toggle {
+  padding: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#leftPanel {
+ flex: 3;
+ position: relative;
+}
+
+#rightPanel {
+  flex: 1;
+  position: relative;
+}
+
+
+.vc-content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  /*min-height: calc(100vh - 64px);*/
+}
+
+#localVideo {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+video {
+  max-width: 100%;
+}

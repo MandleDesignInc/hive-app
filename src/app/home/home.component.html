@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="container-2000">
+
+
+    <div>
+      <img src="http://bluemandle2.com/~hive/assets/images/assam-logo.png">
+    </div>
+
+    <div>
+      <img src="http://bluemandle2.com/~hive/assets/images/biblioteca-logo.png">
+    </div>
+
+    <div class="welcome">Welcome message here after they have logged in.</div>
+
+    <a routerLink="/document">View collection listing or...</a>
+
+
+
+    <div class="search-container">
+
+      <p>Search the collection by title or keywords and themes</p>
+
+      <input #searchBox id="search-box"/>
+
+      <div>
+        <button (click)="onSearch()" [class.mat-elevation-z24]="searchBtnState" (mouseover)="toggleButtonState()" (mouseout)="toggleButtonState()" mat-raised-button>SEARCH</button>
+      </div>
+
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+
+

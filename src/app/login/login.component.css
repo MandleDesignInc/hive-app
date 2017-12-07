@@ -1,0 +1,25 @@
+.container-2000 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img { padding-top: 24px; }
+
+.content {
+    font-size: 1.5em;
+    padding: 72px 5vw;
+    text-align: center;
+}
+
+.content p {padding-bottom: 48px;}
+
+.background {
+    background: url("http://bluemandle2.com/~hive/assets/images/primary-background.png");
+    background-size: cover;
+}
+
+.btn-blue, .btn-red {border-radius: 0;}
+.btn-blue {background: #adb7c0 !important;}
+.btn-red {background: #be3620 !important;}
+

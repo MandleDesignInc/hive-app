@@ -1,0 +1,55 @@
+.hive-header {
+    background: url("http://bluemandle2.com/~hive/assets/images/document-header.png");
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+
+h1 {
+    font-family: Georgia;
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+
+nav {
+    padding-right: 10em;
+}
+
+ul {
+    list-style: none;
+    padding: 0 0 24px 0;
+    font-size: medium;
+    margin: 0;
+}
+
+
+img {
+    margin-top: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+a:hover { color: #171C39; }
+.mock-active { color: #171C39; }
+
+section {
+    display: flex;
+    background: #90A4AE;
+    padding: 48px 96px;
+}
+
+iframe {
+    width: 100%;
+    min-height: 700px;
+}
+
+
+
+

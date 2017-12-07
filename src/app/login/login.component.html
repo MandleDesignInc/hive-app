@@ -1,0 +1,21 @@
+<div class="container-2000">
+
+  <img src="http://bluemandle2.com/~hive/assets/images/assam-logo.png">
+
+  <img src="http://bluemandle2.com/~hive/assets/images/biblioteca-logo.png">
+
+  <div class="content">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    </p>
+
+    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <div>
+      <button class="btn-blue" [class.mat-elevation-z24]="buttonState[0]" mat-raised-button routerLink="/main" (mouseover)="toggleButtonState(0)" (mouseout)="toggleButtonState(0)" (click)="login()">LOGIN</button>
+      <button class="btn-red" [class.mat-elevation-z24]="buttonState[1]" mat-raised-button routerLink="/main" (mouseover)="toggleButtonState(1)" (mouseout)="toggleButtonState(1)" (click)="register()">REGISTER</button>
+    </div>
+
+  </div>
+
+</div>

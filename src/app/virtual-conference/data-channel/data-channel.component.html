@@ -1,0 +1,19 @@
+<mat-card class="chat">
+
+  <div class="sent">
+    <span class="chat-msg talk-bubble tri-right left-top" *ngFor="let message of messages">{{message}}</span>
+  </div>
+
+  <textarea #dataChannelReceive id="dataChannelReceive" disabled></textarea>
+
+
+
+
+  <mat-card-actions>
+
+    <textarea #dataChannelSend id="dataChannelSend" disabled placeholder="Press Start, enter some text, then press Send."></textarea>
+    <button mat-mini-fab #send id="sendButton" (click)="sendData()"><mat-icon>send</mat-icon></button>
+  </mat-card-actions>
+
+
+</mat-card>
